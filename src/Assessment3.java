@@ -14,11 +14,9 @@ public class Assessment3 {
                 secondLargest = num;
             }
         }
-        if (secondLargest != null) {
-            System.out.println("The second largest number is: " + secondLargest);
-        } else {
-            System.out.println("There is no second largest number.");
-        }
+
+        System.out.println("The second largest number is: " + secondLargest);
+
 
 
     }
