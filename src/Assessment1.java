@@ -16,7 +16,7 @@ public class Assessment1 {
         }
 
         for(int i=0;i<5;i++){
-            System.out.print("Enter the marks you got in the corresponding subject ----->");
+            System.out.print("Enter the marks----->");
             marks[i]=sc.nextInt();
         }
 

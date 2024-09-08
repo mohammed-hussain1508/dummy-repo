@@ -3,14 +3,14 @@ public class Assessment3 {
     public static void SecondLargest() {
 
         int[] arr = {6, 4, 11, 21, 12, 13, 6};
-        Integer largest = null;
-        Integer secondLargest = null;
+        int largest = 0;
+        int secondLargest = 0;
 
         for (int num : arr) {
-            if (largest == null || num > largest) {
+            if (largest == 0 || num > largest) {
                 secondLargest = largest;
                 largest = num;
-            } else if (num != largest && (secondLargest == null || num > secondLargest)) {
+            } else if (num != largest && (secondLargest == 0 || num > secondLargest)) {
                 secondLargest = num;
             }
         }
